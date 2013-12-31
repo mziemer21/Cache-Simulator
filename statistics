@@ -1,0 +1,35 @@
+Block size 16 bytes, strgen_trace
+Total number of memory references 	235720
+Total number of hits 	 		219210
+Hit ratio 	 			0.929959
+
+Block size 32 bytes, strgen_trace
+Total number of memory references       235720
+Total number of hits                    224321
+Hit ratio                               0.951642
+/*MODIFIED BY:  Matthew Ziemer, #1, Michael Gilsdorf, #2*/
+Block size 64 bytes, strgen_trace
+Total number of memory references       235720
+Total number of hits                    227049
+Hit ratio                               0.9632315
+
+Block size 16 bytes, gcc_trace
+Total number of memory references       1287661
+Total number of hits                    1230209
+Hit ratio                               0.955383
+
+Block size 32 bytes, gcc_trace
+Total number of memory references       1287661
+Total number of hits                    1246573
+Hit ratio                               0.968091
+
+Block size 64 bytes, gcc_trace
+Total number of memory references       1287661
+Total number of hits                    1253117
+Hit ratio                               0.973173
+
+We think the 64 block size would be the best because it provided the best hit ratio in both cases.
+
+
+
+
